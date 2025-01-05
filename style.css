@@ -1,12 +1,48 @@
-.zopa{
-    color: aquamarine;
+.main{
+    background-color: rgb(193, 125, 22);
+    
 }
-.one{
-    color: red;
+img{
+    width: 20cm;
+    height: 20cm;
 }
-.two{
-    color: blueviolet;
+h1{
+    font-weight: bold; 
+    
 }
-.thre{
-    color: greenyellow;
+span{
+    font-style: italic;
 }
+
+.styled-table {
+    width: 100%; 
+    border-collapse: collapse; 
+    font-size: 16px; 
+    text-align: left; 
+  }
+  
+  
+  .styled-table thead tr {
+    background-color: #009879; 
+    color: #ffffff; 
+    font-weight: bold; 
+  }
+  
+
+  .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd; 
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3; 
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #f1f1f1; 
+  }
+  
+  
+  .styled-table td, .styled-table th {
+    padding: 12px 15px; /
+  }
+  
